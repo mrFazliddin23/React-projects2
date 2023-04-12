@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(7, 87, 225);
+}
+.t_r{
+    background-color: #585757;
+}
+.t_r:hover{
+    background: #4f6675;
+    transition: all 0.5s ease-in-out;
+}
