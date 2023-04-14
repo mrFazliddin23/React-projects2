@@ -1,0 +1,10 @@
+body{
+    background-color: #E5E5E5;
+}
+.students{
+    margin-left: 300px;
+    &__karthi{
+        width: 65px;
+        height: 65px;
+    }
+}
