@@ -1,0 +1,33 @@
+.navbar{
+    background-color: #F2EAE1;
+    width: 270px;
+    max-height: 100vh;
+    height: 100%;
+    padding: 20px;
+    &__img{
+        border-radius: 50%;
+        width: 141px;
+        height: 141px;
+    }
+    &__menu--link{
+        border-radius: 5px;
+        width: 140px;
+        padding: 5px 15px;
+        text-align: start;
+        
+    }
+    
+}
+.active{
+    background-color: #FEAF00;
+    transition: all 0.5s;
+}
+.search{
+    position: relative;
+    z-index: 5;
+    width: 700px;
+
+}
+.form-select{
+    width: 200px;
+}

@@ -1,32 +1,14 @@
 import "./Home.scss";
-import Logo from "../icons/Logo.svg";
-import Karthi from "../images/karthi.png";
-import HomeImg from "../icons/home.svg";
-import Course from "../icons/course.svg";
-import Student from "../icons/students.svg";
-import Payment from "../icons/payment.svg";
-import Report from "../icons/report.svg";
-import Settings from "../icons/settings.svg";
-import Xabar from "../icons/qo'ng'iroqcha.svg";
 import CardStudent from "../icons/student-card.svg";
 import CardCourse from "../icons/course-card.svg";
 import CardPayment from "../icons/paymet-card.svg";
 import CardUsers from "../icons/userr.svg";
-import Logout from "../icons/logout.svg";
-import { NavLink } from "react-router-dom";
-import { useRef } from "react";
 
-const Home = () => {
+const Home = () => {  
 
-  const logoutRef = useRef('')
-
-  const logout = () =>{
-
-  }
-
-  return (
+  return ( 
         <div className="container">
-          <div className="navbar d-flex flex-column align-items-center position-fixed top-0 start-0">
+          {/* <div className="navbar d-flex flex-column align-items-center position-fixed top-0 start-0">
             <a href="#"><img src={Logo} alt="Logo" /></a>
             <div className="d-flex flex-column align-items-center">
               <img className="navbar__img mb-1" src={Karthi} alt="Karthi img" />
@@ -59,13 +41,13 @@ const Home = () => {
                 <NavLink to="*" className="navbar__menu--link text-black fw-bold d-flex align-items-center gap-2"><img src={Settings} alt="settings icon"/>Settings</NavLink>
                 </li>
             </ul>
-            <button className="btn text-black border-0 fw-bold" ref={}>Logout <img className="ms-3" src={Logout} alt="Arrow log out" /></button>
-          </div>
+            <button className="btn text-black border-0 fw-bold">Logout <img className="ms-3" src={Logout} alt="Arrow log out" /></button>
+          </div> */}
           
-        <div className="d-flex align-items-center w-25 gap-3 position-fixed top-0 mt-3 end-0 me-3 search">
+        {/* <div className="d-flex align-items-center w-25 gap-3 position-fixed top-0 mt-3 end-0 me-3 search">
         <input type="search" className="form-control search bg-white" placeholder="Search ..."/>
           <img src={Xabar} alt="qo'ng'iroqcha" className="" />
-        </div>
+        </div> */}
 
         <div className="home__cards d-flex justify-content-between "> 
           <div className="home__cards--card p-4 rounded position-relative">

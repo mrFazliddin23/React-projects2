@@ -1,10 +1,22 @@
 body{
     background-color: #E5E5E5;
 }
+.addStudent{
+    margin-left: 300px;
+    margin-top: 100px;
+}
 .students{
     margin-left: 300px;
+    margin-top: 100px;
     &__karthi{
         width: 65px;
         height: 65px;
     }
+}
+.t_r{
+    background-color: #585757;
+}
+.t_r:hover{
+    background: #4f6675;
+    transition: all 0.5s ease-in-out;
 }
